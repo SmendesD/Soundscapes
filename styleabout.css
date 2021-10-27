@@ -1,0 +1,68 @@
+ul{
+    margin: 2em;
+    line-height: 2em;
+
+}
+li{
+
+}
+
+a{
+    -webkit-text-fill-color: #666666;
+    text-decoration: none;
+    font-family: Myriad Pro,sans-serif;
+    font-size: 24px;
+}
+a:hover{
+    -webkit-text-fill-color: #FFFFFF;
+
+}
+#menu {
+    -webkit-text-fill-color: #FFFFFF;
+    text-decoration: none;
+    font-family: Myriad Pro,sans-serif;
+    font-size: 24px;
+}
+
+h1{
+    font-family: Impact,sans-serif;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+p{
+    font-family: Myriad Pro,sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 1em;
+}
+
+.botao {
+    width: 130px;
+    position: relative;
+    display: inline-block;
+    /*margin: 50px;*/
+}
+.botao .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.botao:hover .img-top {
+    display: inline;
+}
+.container {
+display: flex;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
