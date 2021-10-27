@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Involved</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+<ul>
+    <li><a href="soundwalk.html">SOUNDWALK</a>/<a style="-webkit-text-fill-color: #666666;">/</a>/<a href="repository.html">REPOSITORY</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="getInvolved.html">Get Involved</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</ul>
+<div class="container">
+    <div class="botao" onclick="history.back()" >
+        <img src="img/voltar1.png" alt="Button Back">
+
+            <img src="img/voltarp2.png" class="img-top" alt="Button Back Hover">
+    </div>
+    <h1>GET INVOLVED</h1></div>
+<p>If you want to get involved, just share recordings collected outdoors of the ambient sound: it can be your street, your neighborhood,
+    the park where you usually walk, run, or even what you hear from your window. Sounds can be recorded before, during and after confinement.
+    The only requirement is to be recordings made in the national territory, so that we can see how the various sound environments have changed between pre, during and post-pandemic.
+    To contribute, just fill out the form below:
+
+
+</p>
+
+<form action="somEnviado.php" method="POST">
+
+    <div class="formulario">
+
+    <div class="atributo">
+        <div class="nome">
+            <label for="nome">Author's name: </label>
+        </div>
+        <div class="nome">
+           <textarea id="nome" name="nome" placeholder="Author's name" spellcheck="false" ></textarea>
+        </div>
+    </div>
+
+    <div class="atributo">
+        <div class="email">
+            <label for="email">Email: </label>
+        </div>
+        <div class="email">
+            <textarea id="email" name="email" placeholder="Email" spellcheck="false" ></textarea>
+        </div>
+    </div>
+
+    <div class="atributo">
+        <div class="data">
+            <label for="data">Recording date: </label>
+        </div>
+        <div class="data">
+            <textarea id="data" name="data" placeholder="00/00/0000 " spellcheck="false"></textarea>
+        </div>
+    </div>
+
+    <div class="atributo">
+        <div class="hora">
+            <label for="hora">Recording time: </label>
+        </div>
+        <div class="hora">
+           <textarea id="hora" name="hora" placeholder="Recording time" spellcheck="false" ></textarea>
+    </div>
+    </div>
+
+    <div class="atributo">
+        <div class="local">
+            <label for="local">Location of the recording (street name and locality): </label>
+        </div>
+        <div class="local">
+        <textarea id="local" name="local" placeholder="Location of the recording " spellcheck="false" ></textarea>
+    </div>
+    </div>
+
+    <div class="atributo">
+        <div class="coordenadas">
+            <label for="coordenadas">Recording coordinates (latitude and longitude): </label>
+        </div>
+        <div class="coordenadas">
+           <textarea id="coordenadas" name="coordenadas" placeholder="Recording coordinates" spellcheck="false" ></textarea>
+    </div>
+
+    <div class="atributo">
+        <div class="equipamento">
+            <label for="equipamento">Equipment used: </label>
+        </div>
+        <div class="equipamento">
+        <textarea id="equipamento" name="equipamento" placeholder="Equipment used" spellcheck="false" ></textarea>
+    </div>
+
+    <div class="atributo">
+        <div class="categorias">
+            <div id="categoriasp">Categories and subcategories that you think the sound suits: </div>
+        </div>
+        <div class="categoria">
+            <h5>Human sounds </h5>
+            <label class="subcategoria"> Voice
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria"> Shares
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+
+            <h5>Animal sounds </h5>
+            <label class="subcategoria"> Domestic animals, pets
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria"> Livestock, farm animals, work animals
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Wild animals
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+
+            <h5>Music </h5>
+            <label class="subcategoria"> Live
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria"> Reproduced
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+
+            <h5>Object sounds  </h5>
+            <label class="subcategoria"> Vehicles
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Domestic sounds
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Various sources
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+
+            <h5>Natural sounds </h5>
+            <label class="subcategoria">  Wind
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Thunderstorm
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Water
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Fire
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+
+            <h5>Sounds of unknown origin  </h5>
+            <label class="subcategoria">  Source-ambiguous sounds
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+
+            <h5>Environment and Background </h5>
+            <label class="subcategoria">    Acoustic environment > Inside
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Acoustic environment > Outside
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Acoustic environment > Rural
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Acoustic environment > Urban
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Noise
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+            <label class="subcategoria">  Sound reproduction (Ex .: television, radio, loudspeaker ...)
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+            </label>
+    </div>
+
+        <div class="atributo">
+            <div class="addCat">
+                <label for="addCat">Categories you want to add: </label>
+            </div>
+            <div class="addCat">
+                <textarea id="addCat" name="addCat" placeholder="Categories you want to add " spellcheck="false" ></textarea>
+            </div>
+        </div>
+
+        <div class="atributo">
+            <div class="descricao">
+                <label for="descricao">Additional comment (story/scenario or anything you want to add about the recording) (optional): </label>
+            </div>
+            <div class="descricao">
+                <textarea id="descricao" name="descricao" placeholder="Additional comment  " spellcheck="false"></textarea>
+            </div>
+        </div>
+        <div class="atributo">
+        <form>
+            <h5>Upload your sound recording (preferably WAV or AIFF format, but MP3 or others are allowed): </h5>
+
+            <input type="button" id="upload" value="Upload" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file"/>
+        </form>
+        </div>
+        <div class="atributo">
+        <label class="subcategoria">   I'm not a robot
+            <input type="checkbox" >
+            <span class="checkmark"></span>
+        </label>
+        </div>
+
+    <div class="enviar">
+        <div><input type="submit" value="Submit"> </div>
+    </div>
+    </div>
+
+</form>
+
+
+</body>
+</html>
