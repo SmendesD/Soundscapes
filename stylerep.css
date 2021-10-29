@@ -226,7 +226,7 @@ li{
   list-style-type: none;
 }
 
-a{
+li>a{
     -webkit-text-fill-color: #666666;
     text-decoration: none;
 
