@@ -8,34 +8,3 @@ canvas {
 }
 
 
-ul{
-    margin: 2em;
-    line-height: 2em;
-  position: absolute;
-      padding: inherit;
-    z-index: 999999999;
-
-}
-li{
-  list-style-type: none;
-}
-
-a{
-    -webkit-text-fill-color: #666666;
-    text-decoration: none;
-
-    font-family: Myriad Pro,sans-serif;
-    font-size: 24px;
- 
-}
-a:hover{
-    -webkit-text-fill-color: #FFFFFF;
-
-}
-
-#menu {
-    -webkit-text-fill-color: #FFFFFF;
-    text-decoration: none;
-    font-family: Myriad Pro,sans-serif;
-    font-size: 24px;
-}
